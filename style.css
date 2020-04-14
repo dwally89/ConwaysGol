@@ -1,0 +1,14 @@
+table {
+    width: 100%;
+}
+
+td {
+    width: 10%;
+    position: relative;
+}
+
+td:after {
+    content: '';
+    display: block;
+    margin-top: 100%;
+}
